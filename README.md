@@ -9,4 +9,4 @@ e na parte inferior para trazer uma melhor experiência ao navegar pelo site.
 - Light/Dark mode.
 - Desenvolvido primeiro para mobile e depois para desktop.
 
-![preview img](/preview.png)
+<!-- ![preview img](/preview.png) -->
