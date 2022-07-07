@@ -933,17 +933,8 @@ body.light-theme{
   }
 
   .work__filter{
-    text-align: center;
     column-gap: .25rem;
   }
-}
-
-.work__filters{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: .75rem;
-  margin-bottom: 2rem;
 }
 
 /* Dispositivos MD */
