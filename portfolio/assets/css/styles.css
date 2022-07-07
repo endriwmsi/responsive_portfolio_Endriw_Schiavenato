@@ -929,6 +929,7 @@ body.light-theme{
   }
 
   .work__item{
+    padding: .1rem .1rem;
     font-size: var(--small-font-size);
   }
 
