@@ -17,15 +17,15 @@
    --first-hue: 4;
    --sat: 90%;
    --lig: 45%;
-   --second-hue: 219;
+   --second-hue: 0;
 
    --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
-   --first-color-alt: hsl(var(--first-hue), var(--sat), 39%); /* -4% */
+   --first-color-alt: hsl(var(--first-hue), var(--sat), 41%); /* -4% */
    --title-color: hsl(var(--second-hue), 15%, 95%);
    --text-color: hsl(var(--second-hue), 8%, 75%);
    --text-color-light: hsl(var(--second-hue), 4%, 55%);
-   --body-color: hsl(var(--second-hue), 48%, 8%);
-   --container-color: hsl(var(--second-hue), 32%, 12%);
+   --body-color: hsl(var(--second-hue), 0%, 15%);
+   --container-color: hsl(var(--second-hue), 0%, 10%);
 
   /* Fontes */
   /* .5rem = 8px | 1rem = 16px ... */
@@ -256,9 +256,9 @@ body.light-theme{
 .nav__menu{
   position: fixed;
   bottom: 1rem;
-  background-color: hsla(var(--second-hue), 32%, 16%, .8);
+  background-color: hsla(var(--second-hue), 32%, 0%, .5);
   width: 90%;
-  border-radius: 4rem;
+  border-radius: 1rem;
   padding: 1rem 2.25rem;
   backdrop-filter: blur(10px);
   transition: .4s; /* Lightmode */
@@ -829,7 +829,7 @@ body.light-theme{
 
 /* Footer */
 .footer{
-  background-color: var(--first-color);
+  background-color: hsla(var(--second-hue), 100%, 0%);
 }
 
 .footer__container{
@@ -838,7 +838,7 @@ body.light-theme{
 
 .footer__title,
 .footer__link{
-  color: var(--body-color);
+  color: var(--text-color);
 }
 
 .footer__title{
@@ -924,7 +924,7 @@ body.light-theme{
   }
 
   .services__container{
-    grid-template-columns: 145px;
+    grid-template-columns: repeat(1, 160px);
     justify-content: center;
   }
 
@@ -947,7 +947,7 @@ body.light-theme{
   }
 
   .about__info{
-    grid-template-columns: repeat(3, 140px);
+    grid-template-columns: repeat(4, 140px);
     justify-content: center;
   }
 
@@ -964,7 +964,7 @@ body.light-theme{
   }
 
   .services__container{
-    grid-template-columns: repeat(2, 160px);
+    grid-template-columns: repeat(4, 160px);
     justify-content: center;
   }
 
@@ -1082,7 +1082,7 @@ body.light-theme{
   }
 
   .services__container{
-    grid-template-columns: repeat(3, 192px);
+    grid-template-columns: repeat(4, 192px);
     column-gap: 3rem;
   }
 
