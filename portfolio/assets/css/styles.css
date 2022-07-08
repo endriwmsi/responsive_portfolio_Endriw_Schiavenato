@@ -149,7 +149,13 @@ body.light-theme{
 
 .light-theme .home__social::after,
 .light-theme .footer__social-link{
-  background-color: var(--title-color);
+  background-color: var(--body-color);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.light-theme .footer{
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  background-color: hsla(var(--second-hue), 100%, 100%);
 }
 
 .light-theme .home__social-link,
@@ -160,7 +166,7 @@ body.light-theme{
 .light-theme .footer__title,
 .light-theme .footer__link,
 .light-theme .footer__copy{
-  color: var(--title-color);
+  color: var(--text-color-light);
 }
 
 .light-theme .about__box{
@@ -245,7 +251,7 @@ body.light-theme{
 
 .nav__logo{
   color: var(--first-color);
-  font-weight: var(--font-medium);
+  font-weight: var(--font-semibold);
   transition: .4s;
 }
 
@@ -325,25 +331,6 @@ body.light-theme{
   font-size: var(--biggest-font-size);
 }
 
-.home__img{
-  width: 160px;
-}
-
-.home__handle{
-  justify-self: center;
-  width: 190px;
-  height: 293px;
-  background: linear-gradient(180deg,
-              hsla(var(--first-hue), var(--sat), var(--lig), 1),
-              hsla(var(--first-hue), var(--sat), var(--lig), .2)
-            );
-  border-radius: 10rem 10rem 1rem 1rem;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  overflow: hidden;
-}
-
 .home__buttons{
   display: flex;
   justify-content: center;
@@ -358,7 +345,7 @@ body.light-theme{
 
 .home__social{
   bottom: 5rem;
-  left: 0;
+  left: auto;
   display: grid;
   row-gap: .5rem;
 }
@@ -871,7 +858,7 @@ body.light-theme{
 .footer__copy{
   display: block;
   margin-top: 4.5rem;
-  color: var(--container-color);
+  color: var(--title-color);
   text-align: center;
   font-size: var(--smaller-font-size);
 }
@@ -902,17 +889,12 @@ body.light-theme{
     flex-direction: column;
   }
 
-  .home__handle{
-    width: 150px;
-    height: 253px;
-  }
-
   .home__img{
     width: 130px;
   }
 
   .about__info{
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .skills__box{
@@ -947,7 +929,7 @@ body.light-theme{
   }
 
   .about__info{
-    grid-template-columns: repeat(4, 140px);
+    grid-template-columns: repeat(3, 140px);
     justify-content: center;
   }
 
@@ -1025,11 +1007,6 @@ body.light-theme{
 
   .nav{
     height: calc(var(--header-height) + 1rem);
-  }
-
-  .home__handle{
-    width: 290px;
-    height: 400px;
   }
 
   .home__img{
