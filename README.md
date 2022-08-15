@@ -45,6 +45,5 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 -----
 
-  <h3 align="center"> Feito por <a href="https://www.linkedin.com/in/endriwmsi/">Endriw Schiavenato</a> ☕</h3>
+<h3 align="center"> Feito por <a href="https://www.linkedin.com/in/endriwmsi/">Endriw Schiavenato</a> ☕</h3>
 
-![preview img](/preview.png)
