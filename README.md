@@ -47,4 +47,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
   <h3 align="center"> Feito por <a href="https://www.linkedin.com/in/endriwmsi/">Endriw Schiavenato</a> ☕</h3>
 
-![preview img](blob:https://vercel.com/33e8ed8f-aede-4149-9e70-26d66d698e4c)
+![preview img](/preview.png)
